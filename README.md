@@ -37,17 +37,7 @@ A full-stack web application that enables users to create personalized greeting 
 - **CI/CD**: GitHub Actions (ready for setup)
 
 ## 📋 Prerequisites
-
 - Java 17 or higher
-- Node.js 16+ and npm
-- MongoDB Atlas account (Database URL provided)
-- Git
-
-## 🔧 Installation & Setup
-
-### 1. Clone the Repository
-
-```bash
 git clone https://github.com/yourusername/classplus-greetings-app.git
 cd classplus-greetings-app
 ```
@@ -417,6 +407,8 @@ For issues and questions, please create an issue in the GitHub repository.
 **Happy Greeting Creating! 🎉**
 
 Made with ❤️ for ClassPlus
-#   t e m p l a t E d i t i n g  
- #   t e m p l a t E d i t i n g  
+#   t e m p l a t E d i t i n g 
+ 
+ #   t e m p l a t E d i t i n g 
+ 
  
