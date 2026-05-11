@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: classplus-greetings-app
+  
+  data:
+    mongodb:
+      uri: mongodb+srv://sreekanthreddy:1234@cluster0.dsvnbbm.mongodb.net/?appName=Cluster0
+      auto-index-creation: true
+      database: classplus_greetings
+  
+  jpa:
+    open-in-view: false
+  
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+jwt:
+  secret: "your-super-secret-jwt-key-change-this-in-production-please-make-it-longer-and-secure-12345678901234567890"
+  expiration: 86400000 # 24 hours
+
+cloudinary:
+  cloud-name: ${CLOUDINARY_CLOUD_NAME:your-cloud-name}
+  api-key: ${CLOUDINARY_API_KEY:your-api-key}
+  api-secret: ${CLOUDINARY_API_SECRET:your-api-secret}
+
+logging:
+  level:
+    root: INFO
+    com.classplus: DEBUG
+    org.springframework.security: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
